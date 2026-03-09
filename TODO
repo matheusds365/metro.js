@@ -8,6 +8,9 @@
 - [x] Done
 - [70%] Convert position/max-width/height to rem after transition
 - [ ] Observe dynamically added items to optionally resize the PopoverMenu.
+- [ ] `Indicator` should be redesigned so the user doesn't have to wrap into a `span` manually. (Even if we used it elsewhere other than in PopoverMenu, we can unwrap it from a span conditionally based on initialize effects.)
+- [ ] Instead of using `<span>` for shortcut, we could propose a `<Shortcut>` tag.
+- [ ] Instead of using `<span>` for icons, use just `<Icon>` by auto-wrapping it into a `<span>` depending on where the icon appears in the initialize effect.
 
 # ComboBox
 
@@ -30,3 +33,4 @@
 # Icons
 
 - [ ] hamburguer => burger
+
